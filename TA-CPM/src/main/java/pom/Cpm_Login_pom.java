@@ -30,14 +30,15 @@ public class Cpm_Login_pom {
 	@FindBy(how=How.XPATH,using="//div[@class='col-md-12']//input[@class='form-control ng-untouched ng-pristine ng-invalid']")
 	WebElement OrganizationName_Input;
 	
-	@FindBy(how=How.XPATH,using="//input[@value='Logi']")
+	@FindBy(how=How.XPATH,using="//input[@value='Login']")
 	WebElement Loginbutton;
 	
 	//@FindBy(how=How.XPATH,using="//input[@value='Login']")
 	//WebElement Loginbutton;
 	
 	
-	@FindBy(how=How.XPATH,using="//button[text()='OK']")
+	@FindBy(how=How.XPATH,using="//*[contains(text(),'OK')]")
+	public
 	WebElement ok_button;
 	
 	public void Fetailsenter() throws Exception {

@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testpackage.Cpm_Test_login">
+      <class name="testpackage.CPM_Test_AfterLogin">
         <methods>
           <include name="terminate"/>
           <include name="loadfile"/>
           <include name="setup"/>
           <include name="screenshoton_failure"/>
-          <include name="getLigin_details"/>
           <include name="SetExtent"/>
+          <include name="dashboard"/>
         </methods>
-      </class> <!-- testpackage.Cpm_Test_login -->
+      </class> <!-- testpackage.CPM_Test_AfterLogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

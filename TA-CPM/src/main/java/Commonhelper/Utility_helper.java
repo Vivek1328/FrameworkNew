@@ -9,6 +9,8 @@ import java.util.Date;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.io.FileHandler;
 
 
@@ -41,4 +43,10 @@ public class Utility_helper {
 		
 	}
 	
+	public static void actionclass(WebDriver driver,WebElement Element) {
+		
+		Actions a= new Actions(driver);
+		a.clickAndHold(Element);
+		
+	}
 }
